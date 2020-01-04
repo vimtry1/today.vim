@@ -4,11 +4,28 @@ Insert date and time string of today like Microsoft Excel.
 
 ## Install
 
-```For Dein.vim(TOML)
+### Vundle.vim
+```
+call plug#begin()
+Plug 'vimtry1/today.vim'
+call plug#end()
+```
+
+### vim-plug
+```
+call plug#begin()
+Plug 'vimtry1/today.vim'
+call plug#end()
+```
+
+### dein.vim (TOML)
+```
 [[plugins]]
 repo = 'vimtry1/today.vim'
 ```
-```dein.vim(call)
+
+### dein.vim (not TOML)
+```
 call dein#add('Shougo/deoplete.nvim')
   ```
 
