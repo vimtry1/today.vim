@@ -6,9 +6,9 @@ Insert date and time string of today like Microsoft Excel.
 
 ### Vundle.vim
 ```
-call plug#begin()
+call vundle#begin()
 Plug 'vimtry1/today.vim'
-call plug#end()
+call vundle#end()
 ```
 
 ### vim-plug
