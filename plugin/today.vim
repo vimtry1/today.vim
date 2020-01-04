@@ -24,11 +24,18 @@ command! NowTime call CalcDate('time')
 command! Now call CalcDate('datetime')
 command! NowDateTime call CalcDate('datetime')
 
-" Keymaps
+" Keymaps for Vim / gVim / Neovim
+nnoremap <C-S-j> :NowDate<CR>
+nnoremap <C-S-k> :NowTime<CR>
+nnoremap <C-S-l> :NowDateTime<CR>
+inoremap <C-S-j> <C-o>:NowDate<CR>
+inoremap <C-S-k> <C-o>:NowTime<CR>
+inoremap <C-S-l> <C-o>:NowDateTime<CR>
+
+" Keymaps for iVim
 nnoremap <C-;> :NowDate<CR>
 nnoremap <C-:> :NowTime<CR>
 nnoremap <C-+> :NowDateTime<CR>
 inoremap <C-;> <C-o>:NowDate<CR>
 inoremap <C-:> <C-o>:NowTime<CR>
 inoremap <C-+> <C-o>:NowDateTime<CR>
-
